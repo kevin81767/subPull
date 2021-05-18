@@ -1,4 +1,2 @@
-pixiv.net
-scopely.com
-irembo.gov.rw
-urubutoschools.ac.rw
+example.com
+hackerone.com
