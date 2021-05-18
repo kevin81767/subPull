@@ -18,11 +18,14 @@ The script is designed to run and generate a file with new subdomains daily. If 
 
 * When running the script for the first time, the script notify you via telegram all the subdomains found.
 
-    ![subdomains first scan](https://i.ibb.co/dDS3Mvq/DM-1.png)
+    ![subdomains first scan](https://i.ibb.co/BL6G51T/Whats-App-Image-2021-05-18-at-3-16-03-PM-1.jpg)
+
 
 * When running the script next time. It will notify you new subdomains found(if there are any) by comparing the subdomains found and the subdomains found of the previous day.
 
-    ![new subdomains](https://i.ibb.co/5FhyS4B/DM-2.png)
+    ![new subdomains](https://i.ibb.co/TwfDtF9/new-s.jpg)
+
+    
 
 * You can automate the script daily using cron (e.g: 0 7 * * * /home/user/dir/subPull/subPull.sh)
 
