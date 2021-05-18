@@ -21,6 +21,7 @@ The script is designed to run and generate a file with new subdomains daily. If 
     ![subdomains first scan](https://i.ibb.co/dDS3Mvq/DM-1.png)
 
 * When running the script next time. It will notify you new subdomains found(if there are any) by comparing the subdomains found and the subdomains found of the previous day.
+
     ![new subdomains](https://i.ibb.co/5FhyS4B/DM-2.png)
 
 * You can automate the script daily using cron (e.g: 0 7 * * * /home/user/dir/subPull/subPull.sh)
