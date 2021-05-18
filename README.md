@@ -1,6 +1,6 @@
 # subPull
 
-Just a simple bash script to automate Subdomain enumeration using [subfinder](https://github.com/projectdiscovery/subfinder), [sublist3r](https://github.com/projectdiscovery/subfinder), [assetfinder](https://github.com/tomnomnom/assetfinder) and notify the findings via a [Telegram script](https://github.com/NicolasBernaerts/debian-scripts/tree/master/telegram).
+Just a simple bash script to automate Subdomain enumeration using [subfinder](https://github.com/projectdiscovery/subfinder), [sublist3r](https://github.com/projectdiscovery/subfinder), [assetfinder](https://github.com/tomnomnom/assetfinder) and notify the findings on Telegram.
 The script is designed to run and generate a file with new subdomains daily. If your run the script multiple time in a day, you will not be able discover new subdomains.
 
 ---
@@ -25,7 +25,7 @@ The script is designed to run and generate a file with new subdomains daily. If 
 
     ![new subdomains](https://i.ibb.co/TwfDtF9/new-s.jpg)
 
-    
+
 
 * You can automate the script daily using cron (e.g: 0 7 * * * /home/user/dir/subPull/subPull.sh)
 
